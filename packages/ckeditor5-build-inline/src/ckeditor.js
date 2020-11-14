@@ -46,7 +46,7 @@ import TableToolbar from "@ckeditor/ckeditor5-table/src/tabletoolbar.js";
 import TextTransformation from "@ckeditor/ckeditor5-typing/src/texttransformation.js";
 import Underline from "@ckeditor/ckeditor5-basic-styles/src/underline.js";
 
-export default class InlineEditor extends InlineEditorBase {}
+class Editor extends InlineEditor {}
 
 // Plugins to include in the build.
 InlineEditor.builtinPlugins = [
